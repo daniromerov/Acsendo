@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+h1 {
+	font-family: "Montserrat";
+	font-size: 20px;
+}
+
+h2 {
+	font-family: "Oxygen";
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+h3 {
+	font-family: "Oxygen";
+	color: #e05c2a;
+}
+
+p {
+	font-family: "Oxygen";
+}
+
+hr {
+	height: 5px;
+	background-color: #e05c2a;
+	width: 200px;
+	margin-left: -5px;
+	border: 0;
+}
+
+th,
+td {
+	padding: 10px;
+}
+
+
+/*home*/
+
+#section-one {
+	text-align: center;
+	color: white;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url("images/img1.jpg");
+	height: 400px;
+}
+
+.logo {
+	margin-top: 30px;
+	width: 50%;
+}
+
+.button {
+	background-color: #e05c2a;
+	color: white;
+	font-family: "Oxygen";
+	font-weight: 600;
+	border: 1px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid #d05327;
+	width: 150px;
+	height: 50px;
+	font-size: 13px;
+}
+
+
+/*herramientas*/
+
+#section-two {
+	background-color: #272b36;
+	text-align: center;
+	color: white;
+	margin-top: -20px;
+	font-weight: bold;
+	padding: 20px;
+	border-top: 5px solid #4a5061;
+}
+
+.icons-container {
+	margin: 50px;
+	padding: 2% 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.table {
+	margin: auto;
+	padding: 30px;
+	text-align: center;
+}
+
+#performance {
+	background-color: #e05c2a;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+	margin-top: -20px;
+	height: 80px;
+	padding: 20px;
+}
+
+
+/*competencias*/
+
+#section-three {
+	background-color: white;
+	color: black;
+	display: block;
+}
+
+.pc {
+	width: 100%;
+	margin-left: -100px;
+}
+
+.container-right {
+	margin-left: 30px;
+}
+
+#table-competencies {
+	margin-left: 30px;
+}
+
+
+/*formulario*/
+
+#section-form {
+	background-color: #272b36;
+	text-align: center;
+	color: white;
+	margin-top: 5px;
+	font-weight: 20px;
+	border-top: 5px solid #4a5061;
+}
+
+.form {
+	font-family: "Oxygen";
+	font-size: 13px;
+	width: 300px;
+	margin: auto;
+	text-align: left;
+}
+
+#section-form,
+form {
+	display: block;
+}
+
+select {
+	width: 105%;
+	margin-bottom: 20px;
+	padding: 7px;
+	background-color: #c1d0db;
+	font-family: "Oxygen";
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+label {
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 7px;
+	background-color: #c1d0db;
+}
+
+textarea {
+	background-color: #c1d0db;
+	margin-top: 10px;
+}
+
+.button-form {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e05c2a;
+	color: white;
+	font-family: "Oxygen";
+	font-weight: 600;
+	border: 1px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid #d05327;
+	width: 150px;
+	height: 50px;
+	font-size: 13px;
+}
+
+.form .flexbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form .contact {
+	width: 20%;
+}
+
+.form,
+.code {
+	min-width: 230px;
+}
+
+
+/* Tablet - Desktop */
+
+@media only screen and (min-width: 1221px) {
+	h1 {
+		font-size: 25px;
+	}
+	hr {
+		margin-left: 10px;
+		margin-top: -10px;
+		width: 250px;
+	}
+	#section-one {
+		height: 500px;
+	}
+	.logo {
+		width: 15%;
+	}
+	.button {
+		margin-top: 80px;
+	}
+	.pc {
+		width: 100%;
+		margin-top: 80px;
+		margin-left: -100px;
+	}
+	.left {
+		width: 50%;
+		height: 100vh;
+	}
+	.right {
+		width: 50%;
+		height: 100vh;
+	}
+	#section-three {
+		display: flex;
+	}
+	#performance {
+		font-size: 16px;
+	}
+	.right {
+		padding: 50px;
+	}
+	.container-right {
+		margin-left: 60px;
+	}
+	#section-form,
+	form {
+		display: grid;
+	}
+}
